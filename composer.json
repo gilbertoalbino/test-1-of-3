@@ -1,0 +1,25 @@
+{
+  "name": "gilbertoalbino/test-1-of-3",
+  "description": "Test 1 of 3 for Bravi.",
+  "authors": [
+    {
+      "name": "Gilberto Albino",
+      "email": "contato@gilbertoalbino.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bravi\\": "src/Bravi"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bravi\\": "test/Bravi"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}

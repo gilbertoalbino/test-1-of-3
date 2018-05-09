@@ -1,0 +1,9 @@
+test1_php:
+  image: lramos1994/php-apache-base:latest
+  container_name: test1_php
+  volumes:
+    - ./:/var/www/html
+  environment:
+    - MYSQL_HOST=test1_php
+    - SITE_ENV=dev_docker
+    - APACHE_DOC_ROOT=/var/www/html
